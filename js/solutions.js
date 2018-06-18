@@ -21,3 +21,16 @@
 // 	console.log(checkPalindrome("Radar"));
 // 	console.log(checkPalindrome("Borscht"));
 
+
+//Digit Sum
+// Write a function `sumDigits` that accepts a number and returns 		the sum of its digits.
+// 
+// console.log(sumDigits(42));
+// => 6;
+//**********************
+
+const sumDigits = (a, b) =>{
+	console.log(a + b);
+};
+
+sumDigits(2, 2);
