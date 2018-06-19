@@ -44,10 +44,36 @@
 // console.log(calculateSide(8, 6));
 // => 10
 
-function calculateSide(sideA, sideB){
-	return Math.pow(sideA, 2) + Math.pow(sideB, 2);
-}
+// function calculateSide(sideA, sideB){
+// 	return Math.pow(sideA, 2) + Math.pow(sideB, 2);
+// }
  
-console.log(calculateSide(10, 5));
+// console.log(calculateSide(10, 5));
+
+// Sum Array
+// Write a function `sumArray` that takes an **array** as an argument.
+// The array should contain numbers. The function should return the sum of the numbers in the array.
+// Use a _for loop_ within the function to iterate over the array and sum the contents.
+// Use a variable such as
+// javascript
+// let sum = 0;
+
+// that will **accumulate** value within the loop.
+// Expected result:
+// javascript
+// console.log(sumArray([1, 2, 3, 4, 5, 6]));
+// => 21
+
+function sumArray(arr){
+	let sum = 0;
+	for(let i = 0; i < arr.length; i++)
+		sum += arr[i];
+	
+}
+
+console.log(sumArray([1, 2, 3, 4, 5, 6]));
+//  **Commit your work.** 
+
+//"Commit 5 - Sum Array".
 
 
