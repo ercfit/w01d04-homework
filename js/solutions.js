@@ -29,8 +29,25 @@
 // => 6;
 //**********************
 
-const sumDigits = (a, b) =>{
-	console.log(a + b);
-};
+// const sumDigits = (a, b) =>{
+// 	console.log(a + b);
+// };
 
-sumDigits(2, 2);
+// sumDigits(2, 2);
+
+//Pythagoras
+// Write a function `calculateSide` that takes two arguments: `sideA` and `sideB`, and returns the solution for sideC using the Pythagorean theorem.
+
+// _hint:_ discover the Pythagorean Theorem on a website called google.com  
+// _hint:_ checkout the [Math methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math) in javascript
+
+// console.log(calculateSide(8, 6));
+// => 10
+
+function calculateSide(sideA, sideB){
+	return Math.pow(sideA, 2) + Math.pow(sideB, 2);
+}
+ 
+console.log(calculateSide(10, 5));
+
+
