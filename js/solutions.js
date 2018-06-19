@@ -64,16 +64,33 @@
 // console.log(sumArray([1, 2, 3, 4, 5, 6]));
 // => 21
 
-function sumArray(arr){
-	let sum = 0;
-	for(let i = 0; i < arr.length; i++)
-		sum += arr[i];
+// function sumArray(arr){
+// 	let sum = 0;
+// 	for(let i = 0; i < arr.length; i++)
+// 		sum += arr[i];
 	
-}
+// }
 
-console.log(sumArray([1, 2, 3, 4, 5, 6]));
-//  **Commit your work.** 
+// console.log(sumArray([1, 2, 3, 4, 5, 6]));
 
-//"Commit 5 - Sum Array".
+//this keeps coming back undefined--i'm moving on
 
+//Prime Numbers
+// ### Step One
 
+// function checkPrime(num) {
+//     for(let i = 2; i < Math.sqrt(num); i++){
+//     	if (i % 2 === 0).......
+//     	}
+// console.log(checkPrime(num));
+
+//there are a lot of solutions out on the web, I've yet to find one that I understand even though I understand the definition of a prime number.  I can't in good conscience copy code when I don't understand it's logic.  What I have written is as far as I got with what I understand.
+
+// ### Step Two
+// Write another function called `printPrimes` 
+
+// function printPrimes(num){
+// 	for (i = 0; i > checkPrime(num); i++){
+// 		console.log(printPrimes(num));
+// 	}
+// }
